@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on Marius Garénaux</title>
+        <link>https://mariusgarenaux.github.io/page/</link>
+        <description>Recent content in Pages on Marius Garénaux</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>À propos</title>
+        <link>https://mariusgarenaux.github.io/page/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mariusgarenaux.github.io/page/about/</guid>
+        <description>&lt;p&gt;Je suis étudiant en &lt;a class=&#34;link&#34; href=&#34;https://math.univ-rennes.fr/m2-mathematiques-fondamentales&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;M2 Mathématiques Fondamentales&lt;/strong&gt;&lt;/a&gt; à l&amp;rsquo;&lt;strong&gt;Université de Rennes&lt;/strong&gt;, dans le parcours &lt;strong&gt;&amp;ldquo;Aléatoire&amp;rdquo;&lt;/strong&gt;. Je suis également chargé de TD à l&amp;rsquo;INSA de Rennes pour le module &lt;a class=&#34;link&#34; href=&#34;https://camar.perso.math.cnrs.fr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Algèbre 3&lt;/strong&gt;&lt;/a&gt; en deuxième année.&lt;/p&gt;
+&lt;p&gt;Vous pouvez me contacter à l&amp;rsquo;adresse mail suivante :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:marius.garenaux@etudiant.univ-rennes.fr&#34; &gt;marius.garenaux@etudiant.univ-rennes.fr&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Mes principaux domaines d&amp;rsquo;intérêt sont :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;les probabilités appliquées à la biologie, l&amp;rsquo;écologie;&lt;/li&gt;
+&lt;li&gt;la programmation (Python principalement);&lt;/li&gt;
+&lt;li&gt;la théorie de la mesure et les probabilités.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mon CV est disponible en cliquant &lt;a class=&#34;link&#34; href=&#34;https://mariusgarenaux.github.io/page/about/CV.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Rechercher</title>
+        <link>https://mariusgarenaux.github.io/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mariusgarenaux.github.io/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
