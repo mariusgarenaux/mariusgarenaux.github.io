@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://example.org/</loc>
+  </url><url>
+    <loc>https://example.org/categories/</loc>
+  </url><url>
+    <loc>https://example.org/page/about/</loc>
+  </url><url>
+    <loc>https://example.org/tags/arbres-al%C3%A9atoires/</loc>
+  </url><url>
+    <loc>https://example.org/tags/crump-mode-jaggers/</loc>
+  </url><url>
+    <loc>https://example.org/categories/d%C3%A9veloppements/</loc>
+  </url><url>
+    <loc>https://example.org/post/documents/</loc>
+  </url><url>
+    <loc>https://example.org/tags/galton-watson/</loc>
+  </url><url>
+    <loc>https://example.org/page/</loc>
+  </url><url>
+    <loc>https://example.org/post/</loc>
+  </url><url>
+    <loc>https://example.org/post/documents/stage_m1/memoire_m1/</loc>
+  </url><url>
+    <loc>https://example.org/categories/programmation/</loc>
+  </url><url>
+    <loc>https://example.org/page/search/</loc>
+  </url><url>
+    <loc>https://example.org/tags/</loc>
+  </url><url>
+    <loc>https://example.org/post/documents/devs/perron_frobenius/perron_frobenius/</loc>
+  </url>
+</urlset>
