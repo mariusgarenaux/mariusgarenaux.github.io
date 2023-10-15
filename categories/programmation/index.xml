@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Programmation on Marius Garénaux</title>
+        <link>https://mariusgarenaux.github.io/categories/programmation/</link>
+        <description>Recent content in Programmation on Marius Garénaux</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/categories/programmation/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cops and Robber - Le jeu Python</title>
+        <link>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</guid>
+        <description>&lt;img src="https://mariusgarenaux.github.io/post/cops_robber/cops_robber_img.png" alt="Featured image of post Cops and Robber - Le jeu Python" /&gt;&lt;p&gt;Le jeu &lt;em&gt;&lt;strong&gt;Cops and Robber&lt;/strong&gt;&lt;/em&gt; est un jeu de poursuite sur un graphe. On choisit un ensemble de sommets, certains reliés entre eux par des arêtes (c&amp;rsquo;est-à-dire un &lt;strong&gt;graphe&lt;/strong&gt;). Le premier joueur (le policier) choisit alors un sommet de départ, puis le second joueur (le voleur) fait de même. Chacun leur tour, ils se déplacent sur un sommet voisin, jusqu&amp;rsquo;à ce qu&amp;rsquo;éventuellement le policier arrive sur la même case que le voleur. On dit alors que le policier a gagné.&lt;/p&gt;
+&lt;p&gt;Le (très chouette) livre &lt;strong&gt;&amp;lsquo;The Game of Cops and Robber on Graphs&amp;rsquo;&lt;/strong&gt;, d&amp;rsquo;&lt;strong&gt;Anthony Bonato&lt;/strong&gt; et &lt;strong&gt;Richard J. Nowakowski&lt;/strong&gt;  présente toute une théorie autour de ce jeu. On peut par exemple se demander si, pour un certain graphe fixé, le policier peut toujours gagner. Si non, on peut alors se demander combien de policiers il faudrait pour attraper le voleur à coup sûr.&lt;/p&gt;
+&lt;p&gt;Pour essayer ce jeu sur vous graphes favoris, une &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/cops_robber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;version Python du jeu est disponible ici&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/game_exemple.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Il dispose d&amp;rsquo;un éditeur de graphes, pour créer et modifier vos terrains de jeu.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/graph_editor_exemple.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Le jeu a été codé avec la librairie &lt;a class=&#34;link&#34; href=&#34;https://www.pygame.org/news&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;pygame&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
