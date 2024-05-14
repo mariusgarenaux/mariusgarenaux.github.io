@@ -2,43 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Marius Garénaux</title>
-        <link>https://mariusgarenaux.github.io/</link>
+        <link>https://demo.stack.jimmycai.com/</link>
         <description>Recent content on Marius Garénaux</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language><atom:link href="https://demo.stack.jimmycai.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>À propos</title>
-        <link>https://mariusgarenaux.github.io/page/about/</link>
+        <link>https://demo.stack.jimmycai.com/%C3%A0-propos/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/page/about/</guid>
-        <description>&lt;p&gt;Je suis étudiant en &lt;a class=&#34;link&#34; href=&#34;https://math.univ-rennes.fr/m2-mathematiques-fondamentales&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;M2 Mathématiques Fondamentales&lt;/strong&gt;&lt;/a&gt; à l&amp;rsquo;&lt;strong&gt;Université de Rennes&lt;/strong&gt;, dans le parcours &lt;strong&gt;&amp;ldquo;Aléatoire&amp;rdquo;&lt;/strong&gt;. Je suis également chargé de TD à l&amp;rsquo;INSA de Rennes pour le module &lt;a class=&#34;link&#34; href=&#34;https://camar.perso.math.cnrs.fr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;&lt;strong&gt;Algèbre 3&lt;/strong&gt;&lt;/a&gt; en deuxième année.&lt;/p&gt;
-&lt;p&gt;Vous pouvez me contacter à l&amp;rsquo;adresse mail suivante :&lt;/p&gt;
+        <guid>https://demo.stack.jimmycai.com/%C3%A0-propos/</guid>
+        <description>&lt;p&gt;Je suis ingénieur d&amp;rsquo;étude en I.A. et Statistiques dans l&amp;rsquo;équipe &lt;a class=&#34;link&#34; href=&#34;https://www.irisa.fr/en/teams/logica&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;LogicA&lt;/strong&gt;&lt;/a&gt;, à l&amp;rsquo;&lt;a class=&#34;link&#34; href=&#34;https://www.irisa.fr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;IRISA&lt;/strong&gt;&lt;/a&gt;.
+Je participe au développement du projet &lt;a class=&#34;link&#34; href=&#34;https://blog.rudi.bzh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;RUDI&lt;/strong&gt;&lt;/a&gt;, le portail de diffusion des données de la métropole de Rennes.
+J&amp;rsquo;ai également participé au projet &lt;a class=&#34;link&#34; href=&#34;https://project.inria.fr/bmdec/fr/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;BMDec&lt;/strong&gt;&lt;/a&gt;, sur des mobilités domicile-travail.
+Vous pouvez me contacter à l&amp;rsquo;adresse mail suivante :&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:marius.garenaux@etudiant.univ-rennes.fr&#34; &gt;marius.garenaux@etudiant.univ-rennes.fr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;mailto:marius.garenaux-gruau@irisa.fr&#34; &gt;marius.garenaux-gruau@irisa.fr&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Mes principaux domaines d&amp;rsquo;intérêt sont :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;les probabilités appliquées à la biologie, l&amp;rsquo;écologie;&lt;/li&gt;
-&lt;li&gt;la programmation (Python principalement);&lt;/li&gt;
-&lt;li&gt;la théorie de la mesure et les probabilités.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mon CV est disponible en cliquant &lt;a class=&#34;link&#34; href=&#34;https://mariusgarenaux.github.io/page/about/CV.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mon CV est disponible en cliquant &lt;a class=&#34;link&#34; href=&#34;https://demo.stack.jimmycai.com/about/CV.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Activité d&#39;IA, prédiction du trafic de Rennes</title>
+        <link>https://demo.stack.jimmycai.com/p/activit%C3%A9-dia-pr%C3%A9diction-du-trafic-de-rennes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/activit%C3%A9-dia-pr%C3%A9diction-du-trafic-de-rennes/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/prediction_trafic/map.jpg" alt="Featured image of post Activité d&#39;IA, prédiction du trafic de Rennes" /&gt;&lt;p&gt;Ce TP est une introduction à l&amp;rsquo;IA à destination de lycéens ayant des bases en Python. Il consiste à entraîner sur différents jeux de données un modèle d&amp;rsquo;IA qui prédit le trafic sur la ville de Rennes. Les jeux de données sont stockés sur un noeud &lt;a class=&#34;link&#34; href=&#34;https://blog.rudi.bzh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;RUDI&lt;/strong&gt;&lt;/a&gt;, et issus du portail open data de la ville de Rennes. Le TP permet d&amp;rsquo;appréhender le mécanisme général d&amp;rsquo;entraînement d&amp;rsquo;un IA ainsi que la visualisation de données (géographiques).
+Le TP est disponible sur GitHub, &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/tp_prediction_trafic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;ici&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Cops and Robber - Le jeu Python</title>
-        <link>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</link>
+        <link>https://demo.stack.jimmycai.com/p/cops-and-robber-le-jeu-python/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</guid>
-        <description>&lt;img src="https://mariusgarenaux.github.io/post/cops_robber/cops_robber_img.png" alt="Featured image of post Cops and Robber - Le jeu Python" /&gt;&lt;p&gt;Le jeu &lt;em&gt;&lt;strong&gt;Cops and Robber&lt;/strong&gt;&lt;/em&gt; est un jeu de poursuite sur un graphe. On choisit un ensemble de sommets, certains reliés entre eux par des arêtes (c&amp;rsquo;est-à-dire un &lt;strong&gt;graphe&lt;/strong&gt;). Le premier joueur (le policier) choisit alors un sommet de départ, puis le second joueur (le voleur) fait de même. Chacun leur tour, ils se déplacent sur un sommet voisin, jusqu&amp;rsquo;à ce qu&amp;rsquo;éventuellement le policier arrive sur la même case que le voleur. On dit alors que le policier a gagné.&lt;/p&gt;
-&lt;p&gt;Le (très chouette) livre &lt;strong&gt;&amp;lsquo;The Game of Cops and Robber on Graphs&amp;rsquo;&lt;/strong&gt;, d&amp;rsquo;&lt;strong&gt;Anthony Bonato&lt;/strong&gt; et &lt;strong&gt;Richard J. Nowakowski&lt;/strong&gt;  présente toute une théorie autour de ce jeu. On peut par exemple se demander si, pour un certain graphe fixé, le policier peut toujours gagner. Si non, on peut alors se demander combien de policiers il faudrait pour attraper le voleur à coup sûr.&lt;/p&gt;
-&lt;p&gt;Pour essayer ce jeu sur vous graphes favoris, une &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/cops_robber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://demo.stack.jimmycai.com/p/cops-and-robber-le-jeu-python/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/cops_robber/cops_robber_img.png" alt="Featured image of post Cops and Robber - Le jeu Python" /&gt;&lt;p&gt;Le jeu &lt;em&gt;&lt;strong&gt;Cops and Robber&lt;/strong&gt;&lt;/em&gt; est un jeu de poursuite sur un graphe. On choisit un ensemble de sommets, certains reliés entre eux par des arêtes (c&amp;rsquo;est-à-dire un &lt;strong&gt;graphe&lt;/strong&gt;). Le premier joueur (le policier) choisit alors un sommet de départ, puis le second joueur (le voleur) fait de même. Chacun leur tour, ils se déplacent sur un sommet voisin, jusqu&amp;rsquo;à ce qu&amp;rsquo;éventuellement le policier arrive sur la même case que le voleur. On dit alors que le policier a gagné.&lt;/p&gt;
+&lt;p&gt;Le (très chouette) livre &lt;a class=&#34;link&#34; href=&#34;https://www.ams.org/books/stml/061/stml061-endmatter.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;&amp;lsquo;The Game of Cops and Robber on Graphs&amp;rsquo;&lt;/strong&gt;&lt;/a&gt;, d&amp;rsquo;&lt;strong&gt;Anthony Bonato&lt;/strong&gt; et &lt;strong&gt;Richard J. Nowakowski&lt;/strong&gt;  présente toute une théorie autour de ce jeu. On peut par exemple se demander si, pour un certain graphe fixé, le policier peut toujours gagner. Si non, on peut alors se demander combien de policiers il faudrait pour attraper le voleur à coup sûr.&lt;/p&gt;
+&lt;p&gt;Pour essayer ce jeu sur vos graphes favoris, une &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/cops_robber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;version Python du jeu est disponible ici&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/game_exemple.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/cops_robber/game_exemple.png&#34;
 	
 	
 	
@@ -49,7 +60,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Il dispose d&amp;rsquo;un éditeur de graphes, pour créer et modifier vos terrains de jeu.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/graph_editor_exemple.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/cops_robber/graph_editor_exemple.png&#34;
 	
 	
 	
@@ -63,22 +74,108 @@
 </description>
         </item>
         <item>
-        <title>Processus de branchement en temps discret et décomposition épinale</title>
-        <link>https://mariusgarenaux.github.io/post/documents/stage_m1/memoire_m1/</link>
+        <title>Explication du modèle Naïve Bayes</title>
+        <link>https://demo.stack.jimmycai.com/p/explication-du-mod%C3%A8le-na%C3%AFve-bayes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/post/documents/stage_m1/memoire_m1/</guid>
-        <description>&lt;img src="https://mariusgarenaux.github.io/post/documents/stage_m1/arbre_biaise.png" alt="Featured image of post Processus de branchement en temps discret et décomposition épinale" /&gt;&lt;p&gt;Mon stage de fin de M1 portait sur des &lt;strong&gt;processus de branchement en temps discret&lt;/strong&gt;. &lt;strong&gt;Le mémoire de stage est disponible &lt;a class=&#34;link&#34; href=&#34;https://mariusgarenaux.github.io/post/documents/stage_m1/Rapport_Stage.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+        <guid>https://demo.stack.jimmycai.com/p/explication-du-mod%C3%A8le-na%C3%AFve-bayes/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/documents/naive_bayes/image.png" alt="Featured image of post Explication du modèle Naïve Bayes" /&gt;&lt;p&gt;Dans le cadre du &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/activit%C3%A9-pr%C3%A9diction-du-trafic/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TP autour de la prédiction du trafic de la ville de Rennes&lt;/a&gt;, le modèle &amp;lsquo;Naive Bayes&amp;rsquo; est utilisé. On détaille ici un peu plus la théorie derrière la pratique.&lt;/p&gt;
+&lt;p&gt;Reprenons l&amp;rsquo;exemple de l&amp;rsquo;état du trafic. Pour simplifier, on suppose qu&amp;rsquo;on a  2 entrées : &lt;code&gt;nom_de_la_route&lt;/code&gt; et &lt;code&gt;heure&lt;/code&gt;; et une sortie : &lt;code&gt;etat_trafic&lt;/code&gt;. Les différentes valeurs possibles pour &lt;code&gt;etat_trafic&lt;/code&gt; sont :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;circulation_impossible&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tres_ralenti&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ralenti&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fluide&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour résumer, le modèle Naïve Bayes essaye d&amp;rsquo;estimer, pour une entrée &lt;strong&gt;$x = $(nom_de_la_route, heure)&lt;/strong&gt; la probabilité que la sortie soit chacune des &lt;strong&gt;4&lt;/strong&gt; possibilités. Il retourne ensuite la valeur pour laquelle il a estimé la plus grande probabilité.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;De manière plus précise, on modélise notre problème par un couple &lt;strong&gt;$(X, Y)$&lt;/strong&gt; de variables aléatoires vérifiant :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$X$&lt;/strong&gt; est à valeur dans &lt;strong&gt;$\mathcal X = \mathcal D\times \mathcal H$&lt;/strong&gt;, où $\mathcal D$ est l&amp;rsquo;ensemble des noms de route possibles et $\mathcal H$ l&amp;rsquo;ensemble des heures ({0, 1, &amp;hellip;, 23}),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$Y$&lt;/strong&gt; est à valeur dans &lt;strong&gt;$\mathcal Y$&lt;/strong&gt;, l&amp;rsquo;ensemble des valeurs possibles du trafic. On encode pour la suite ces valeurs en $1, 2, 3$ et $4$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le modèle fonctionne de la manière suivante. Pour &lt;strong&gt;$x \in \mathcal X$&lt;/strong&gt;, le modèle estime (à un facteur près) :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$p_1$&lt;/strong&gt;$ = \mathbb{P} (Y = 1 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_2$&lt;/strong&gt;$ = \mathbb{P} (Y = 2 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_3$&lt;/strong&gt;$ = \mathbb{P} (Y = 3 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_4$&lt;/strong&gt;$ = \mathbb{P} (Y = 4 | X = x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Puis il regarde laquelle de ces $4$ estimations est la plus grande, et retourne le choix corespondant.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est la manière dont le modèle estime les paramètres qui lui donne son nom (&lt;strong&gt;Naïve Bayes&lt;/strong&gt;). Elle est basée sur le &lt;strong&gt;théorème de Bayes&lt;/strong&gt;, et est dite &lt;strong&gt;&amp;lsquo;Naïve&amp;rsquo;&lt;/strong&gt; car elle fait une hypothèse &lt;em&gt;assez forte&lt;/em&gt; sur &lt;strong&gt;$X$&lt;/strong&gt; (on explique &lt;em&gt;pourquoi&lt;/em&gt; on fait cette hypothèse à la fin).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;naïve-&#34;&gt;&amp;lsquo;Naïve&amp;rsquo; ?
+&lt;/h3&gt;&lt;p&gt;Pour estimer les probabilités ci-dessus, le modèle fait l&amp;rsquo;hypothèse que &lt;strong&gt;les marginales de $X$ sont indépendantes conditionnellement à $Y$&lt;/strong&gt;.
+C&amp;rsquo;est-à-dire, (si on note &lt;strong&gt;$X^{(1)}$&lt;/strong&gt; le nom de la route et &lt;strong&gt;$X^{(2)}$&lt;/strong&gt; l&amp;rsquo;heure) que pour tout nom de route &lt;strong&gt;$x^{(1)} \in \mathcal D$&lt;/strong&gt; , toute heure &lt;strong&gt;$x^{(2)} \in \mathcal H$&lt;/strong&gt; et toute valeur &lt;strong&gt;$y \in \mathcal Y$&lt;/strong&gt; de l&amp;rsquo;état du trafic, on a :
+$$
+\mathbb P(X^{(1)} = x^{(1)}, X^{(2)} = x^{(2)} | Y = y) = \mathbb P(X^{(1)} = x^{(1)}| Y = y)\times \mathbb P( X^{(2)} = x^{(2)} | Y = y).
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On rappelle que par définition, la probabilité que $X^{(1)} = x^{(1)}$ sachant que $Y=y$ est :
+$$ \mathbb P(X^{(1)} = x^{(1)}| Y = y) = \frac{\mathbb P(X^{(1)} = x^{(1)}, Y = y)}{\mathbb P(Y = y)} $$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Intuitivement, dire que $X^{(1)}$ et $X^{(2)}$ sont indépendantes conditionnellement à $Y$ peut être expliqué de la manière suivante. Imaginons que vous jouez avec une amie. Elle observe l&amp;rsquo;état du trafic sur une route, à une heure précise. Elle vous dit quel est l&amp;rsquo;état de la circulation, mais pas le nom de la route, ni l&amp;rsquo;heure. Vous devez alors deviner (au hasard) ces deux informations. Alors dans cette configuration, dire que $X^{(1)}$ et $X^{(2)}$ sont indépendantes conditionnellement à $Y$ c&amp;rsquo;est dire que le fait de connaître (en plus de l&amp;rsquo;état du trafic) le nom de la route n&amp;rsquo;influence pas votre supposition sur l&amp;rsquo;heure (ou de manière équivalente que connaître l&amp;rsquo;heure n&amp;rsquo;influence pas votre supposition sur le nom de la route).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette hypothèse est souvent &lt;em&gt;très forte&lt;/em&gt; (d&amp;rsquo;où la dénomination &amp;rsquo;naïve&amp;rsquo;), même si elle ne semble pas l&amp;rsquo;être dans cet exemple précis.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;bayes-&#34;&gt;&amp;lsquo;Bayes&amp;rsquo; ?
+&lt;/h3&gt;&lt;p&gt;Le théorème de &lt;strong&gt;Bayes&lt;/strong&gt; fait le lien entre $\mathbb P (Y = y | X = x)$ et $\mathbb P (X = x | Y = y)$. Voici ce théorème :
+$$
+\mathbb P (Y = y | X = x) = \frac{\mathbb P (X = x | Y = y)\times \mathbb P(Y = y)}{\mathbb P(X = x)}
+$$
+Il permet ici, si on fait l&amp;rsquo;hypothèse d&amp;rsquo;indépendance des marginales conditionnellement à $Y$, d&amp;rsquo;estimer les probabilités $p_1, p_2, p_3, p_4$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;estimer-les-probabilités-&#34;&gt;Estimer les probabilités ?
+&lt;/h3&gt;&lt;p&gt;Pour estimer les &lt;strong&gt;4&lt;/strong&gt; probabilités $p_1, p_2, p_3, p_4$, une première approche peut être la suivante. Par définition de la probabilité conditionnelle :
+$$
+\mathbb p_1 = \mathbb P(Y = 1 | X = x) = \frac{\mathbb P(Y = 1, X = x)}{\mathbb P(X = x)}.
+$$
+Si on dispose de $n$ données d&amp;rsquo;entraînement $(x_1, y_1), &amp;hellip;, (x_n, y_n)$ (c&amp;rsquo;est-à-dire un tableau de données comme dans l&amp;rsquo;exercice !). On note $N_1(n)$ le nombre de fois où on observe $(x, 1)$ dans ces données, on peut alors approcher $\mathbb P(Y = 1, X = x)$ (grâce à la loi des grands nombres) par $\frac{N_1(n)}{n}$. Il est inutile d&amp;rsquo;avoir une approximation du dénominateur, $\mathbb P(X = x)$, car il va apparaître dans chacune des $4$ probabilités $p_1, p_2, p_3, p_4$ : on peut se contenter de choisir l&amp;rsquo;état $i$ du trafic pour lequel la probabilité $\mathbb P(Y = i, X = x)$ est la plus grande (ça sera la même que celle pour laquelle $p_i$ est la plus grande).
+Le potentiel problème de cette première approche est le suivant: si on a beaucoup de paramètres en entrées (c&amp;rsquo;est-à-dire si $X$ est à valeur dans un espace avec un grand nombre de dimensions), le nombre $N_1(n)$ de fois où on a observé l&amp;rsquo;entrée $x$ et la sortie $1$ risque d&amp;rsquo;être trop petit pour fournir une bonne approximation de $\mathbb P(Y = 1, X = x)$ (ou alors il faudrait un nombre $n$ de données d&amp;rsquo;entraînement beaucoup trop grand).&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est pour palier à ce problème qu&amp;rsquo;on fait l&amp;rsquo;hypothèse &amp;rsquo;naïve&amp;rsquo; d&amp;rsquo;indépendance conditionnelle. Dans ce cas, l&amp;rsquo;approximation de $p_1$ se simplifie. Par le théorème de Bayes :
+$$
+p_1 = \mathbb P(X = x| Y = 1) \times \frac{\mathbb P(Y = 1)}{\mathbb P(X = x)}.
+$$
+Par l&amp;rsquo;hypothèse d&amp;rsquo;indépendance conditionnelle :
+$$
+\mathbb P(X = x | Y = 1) = \mathbb P(X^{(1)} = x^{(1)}| Y = 1)\times \mathbb P( X^{(2)} = x^{(2)} | Y = 1).
+$$
+Pour estimer chacun des deux termes du produit, on peut utiliser la loi des grands nombres comme précedemment. Par exemple, $\mathbb P(X^{(1)} = x^{(1)}| Y = 1)$ peut être approché par $\frac{N^{(1)}_1(n)}{M_1(n)}$, où $N^{(1)}_1(n)$ est le nombre de fois où on a observé la caractéristique $x^{(1)}$ et l&amp;rsquo;état du trafic $1$ parmi les données d&amp;rsquo;entraînement (par exemple le nombre de fois où la circulation était impossible sur le Mail François Mitterand), et $M_1(n)$ est le nombre de fois où on a observé l&amp;rsquo;état du trafic $1$ parmi les données d&amp;rsquo;entraînement (c&amp;rsquo;est-à-dire le nombre de fois où on a observé que la circulation était impossible). Cela permet de séparer les caractéristiques en entrée, au prix d&amp;rsquo;une hypothèse forte d&amp;rsquo;indépendance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Quelques références&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scikit-learn.org/stable/modules/naive_bayes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://scikit-learn.org/stable/modules/naive_bayes.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/HlsrPlGmW00?si=0F5RHxFFfxo-G0Pw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/HlsrPlGmW00?si=0F5RHxFFfxo-G0Pw&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Processus de branchement en temps discret et décomposition épinale</title>
+        <link>https://demo.stack.jimmycai.com/p/processus-de-branchement-en-temps-discret-et-d%C3%A9composition-%C3%A9pinale/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/processus-de-branchement-en-temps-discret-et-d%C3%A9composition-%C3%A9pinale/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/documents/stage_m1/arbre_biaise.png" alt="Featured image of post Processus de branchement en temps discret et décomposition épinale" /&gt;&lt;p&gt;Mon stage de fin de M1 portait sur des &lt;strong&gt;processus de branchement en temps discret&lt;/strong&gt;. &lt;strong&gt;Le mémoire de stage est disponible &lt;a class=&#34;link&#34; href=&#34;https://demo.stack.jimmycai.com/post/documents/stage_m1/Rapport_Stage.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Il a été réalisé à l&amp;rsquo;&lt;strong&gt;Université du Québec à Montréal&lt;/strong&gt;, sous la direction d&amp;rsquo;&lt;a class=&#34;link&#34; href=&#34;https://heleneguerin.github.io/index.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Hélène Guérin&lt;/strong&gt;&lt;/a&gt; et de &lt;a class=&#34;link&#34; href=&#34;https://www.normalesup.org/~foutelrodier/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;&lt;strong&gt;Félix Foutel-Rodier&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Les processus étudiés pendant le stage sont des modèles probabilistes, qui peuvent permettre par exemple de décrire l&amp;rsquo;évolution d&amp;rsquo;une population, ou bien la propagation d&amp;rsquo;une épidémie. Le modèle le plus classique est celui des &lt;strong&gt;processus de Galton-Watson&lt;/strong&gt;, introduit au 19e siècle, qui ont été étudiés dans la première partie du stage. La construction d&amp;rsquo;un &lt;strong&gt;espace de probabilité d&amp;rsquo;arbres aléatoires&lt;/strong&gt; apparaît au 20e siècle, parfois due à Neveu, parfois à Ulam et Harris, et permet de mieux comprendre certains résultats sur ces processus. En particulier, le &lt;strong&gt;Théorème de Kesten et Stigum&lt;/strong&gt; se montre à l&amp;rsquo;aide d&amp;rsquo;une technique de &lt;strong&gt;décomposition épinale&lt;/strong&gt;. Cette méthode, présentée initialement par &lt;strong&gt;Lyons, Pemantle et Peres&lt;/strong&gt; dans l&amp;rsquo;article &lt;strong&gt;[RLP95]&lt;/strong&gt; a l&amp;rsquo;avantage de se généraliser à des modèles plus complexes, comme ceux étudiés dans la fin du stage : les processus de &lt;strong&gt;Crump-Mode-Jagers&lt;/strong&gt;. Ce modèle est plus réaliste que celui de Galton-Watson, mais plus complexe à étudier.&lt;/p&gt;
-&lt;h3 id=&#34;processus-de-galton-watson&#34;&gt;Processus de Galton-Watson&lt;/h3&gt;
-&lt;p&gt;Partons d&amp;rsquo;un groupe d&amp;rsquo;individus, et imaginons qu&amp;rsquo;ils donnent naissance indépendamment les uns des autres à un &lt;strong&gt;nombre aléatoire d&amp;rsquo;enfants&lt;/strong&gt;, suivant la même mesure de probabilité &lt;strong&gt;$P$&lt;/strong&gt;, puis meurent. Appelons ces individus la génération 0, et leurs enfants la génération 1. On peut recommencer le processus pour chaque individu de la génération 1, et obtenir la génération 2, et ainsi de suite.
+&lt;h3 id=&#34;processus-de-galton-watson&#34;&gt;Processus de Galton-Watson
+&lt;/h3&gt;&lt;p&gt;Partons d&amp;rsquo;un groupe d&amp;rsquo;individus, et imaginons qu&amp;rsquo;ils donnent naissance indépendamment les uns des autres à un &lt;strong&gt;nombre aléatoire d&amp;rsquo;enfants&lt;/strong&gt;, suivant la même mesure de probabilité &lt;strong&gt;$P$&lt;/strong&gt;, puis meurent. Appelons ces individus la génération 0, et leurs enfants la génération 1. On peut recommencer le processus pour chaque individu de la génération 1, et obtenir la génération 2, et ainsi de suite.
 Les &lt;strong&gt;processus de Galton-Watson&lt;/strong&gt; modélisent ce genre de situation. C&amp;rsquo;est-à-dire que les générations sont &lt;strong&gt;séparées&lt;/strong&gt;, les individus ne se reproduisent pas entre eux, mais donnent naissance tous seuls à des enfants (on parle de &lt;strong&gt;reproduction asexuée&lt;/strong&gt;), et ce &lt;strong&gt;une seule fois dans leur vie&lt;/strong&gt;.
 Un outil utile pour visualiser l&amp;rsquo;évolution d&amp;rsquo;un tel processus est un &lt;strong&gt;arbre aléatoire&lt;/strong&gt;. Ici, la génération 0 est représentée en noir, la première en rouge et la seconde en bleu.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/documents/stage_m1/arbre_ex.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/documents/stage_m1/arbre_ex.png&#34;
 	
 	
 	
@@ -87,10 +184,10 @@ Un outil utile pour visualiser l&amp;rsquo;évolution d&amp;rsquo;un tel process
 	
 &gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;processus-de-crump-mode-jaggers-cmj&#34;&gt;Processus de Crump-Mode-Jaggers (CMJ)&lt;/h3&gt;
-&lt;p&gt;Les &lt;strong&gt;processus CMJ&lt;/strong&gt; sont plus complexes. Dans ce modèle, les individus donnent naissance au cours de leur vie à &lt;strong&gt;plusieurs enfants&lt;/strong&gt;, à des dates précises. Ceci change l&amp;rsquo;échelle de temps, qui compte plutôt les années que les générations, car ces dernières peuvent désormais se superposer. Ci-dessous, on a représenté un exemple d&amp;rsquo;évolution d&amp;rsquo;une population selon ce modèle. Chaque ligne colorée représente la vie d&amp;rsquo;un individu, et chaque individu est noté par un point. L&amp;rsquo;axe des abcisses représente le temps.&lt;/p&gt;
+&lt;h3 id=&#34;processus-de-crump-mode-jaggers-cmj&#34;&gt;Processus de Crump-Mode-Jaggers (CMJ)
+&lt;/h3&gt;&lt;p&gt;Les &lt;strong&gt;processus CMJ&lt;/strong&gt; sont plus complexes. Dans ce modèle, les individus donnent naissance au cours de leur vie à &lt;strong&gt;plusieurs enfants&lt;/strong&gt;, à des dates précises. Ceci change l&amp;rsquo;échelle de temps, qui compte plutôt les années que les générations, car ces dernières peuvent désormais se superposer. Ci-dessous, on a représenté un exemple d&amp;rsquo;évolution d&amp;rsquo;une population selon ce modèle. Chaque ligne colorée représente la vie d&amp;rsquo;un individu, et chaque individu est noté par un point. L&amp;rsquo;axe des abcisses représente le temps.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/documents/stage_m1/CMJ.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/documents/stage_m1/CMJ.png&#34;
 	
 	
 	
@@ -107,27 +204,27 @@ mean behaviour of branching processes. The Annals of Probability, 23(3) :1125 �
         </item>
         <item>
         <title>Rechercher</title>
-        <link>https://mariusgarenaux.github.io/page/search/</link>
+        <link>https://demo.stack.jimmycai.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/page/search/</guid>
+        <guid>https://demo.stack.jimmycai.com/search/</guid>
         <description></description>
         </item>
         <item>
         <title>Un théorème de Perron-Frobenius</title>
-        <link>https://mariusgarenaux.github.io/post/documents/devs/perron_frobenius/perron_frobenius/</link>
+        <link>https://demo.stack.jimmycai.com/p/un-th%C3%A9or%C3%A8me-de-perron-frobenius/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/post/documents/devs/perron_frobenius/perron_frobenius/</guid>
-        <description>&lt;img src="https://mariusgarenaux.github.io/post/documents/devs/perron_frobenius/perron_frobenius.png" alt="Featured image of post Un théorème de Perron-Frobenius" /&gt;&lt;p&gt;Le théorème présenté est un joli résultat liant les matrices stochastiques et les groupes, en passant par les valeurs propres et les nombres complexes de module 1 (ce qui en fait un beau développement pour l&amp;rsquo;agrégation de mathématiques !). Il existe différentes versions du théorème de Perron-Frobenius, selon les hypothèses sur la matrice. Celle présentée nous donne des informations sur le spectre des matrices stochastiques irréductibles.
+        <guid>https://demo.stack.jimmycai.com/p/un-th%C3%A9or%C3%A8me-de-perron-frobenius/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/documents/devs/perron_frobenius/perron_frobenius.png" alt="Featured image of post Un théorème de Perron-Frobenius" /&gt;&lt;p&gt;Le théorème présenté est un joli résultat liant les matrices stochastiques et les groupes, en passant par les valeurs propres et les nombres complexes de module 1 (ce qui en fait un beau développement pour l&amp;rsquo;agrégation de mathématiques !). Il existe différentes versions du théorème de Perron-Frobenius, selon les hypothèses sur la matrice. Celle présentée nous donne des informations sur le spectre des matrices stochastiques irréductibles.
 Plus précisément, on montre le théorème suivant :&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Théorème&lt;/strong&gt;&lt;/em&gt; : Soit $A \in \mathcal M_n(\mathbb R)$ une matrice &lt;strong&gt;stochastique&lt;/strong&gt; et &lt;strong&gt;irréductible&lt;/strong&gt;. Alors le rayon spectral de $A$ est 1, et l&amp;rsquo;ensemble des valeurs propres (complexes) de $A$ de module 1 forme un sous-groupe de $(\mathbb S^1, .)$.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;On montre même plus précisément, pour $\lambda$ et $\mu$ deux valeurs propres de module 1 de vecteurs propres respectifs $X$ et $Y$; que le vecteur $X.Y := (X_k.Y_k)_k$ est un vecteur propre pour $\lambda.\mu$ !&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;La preuve du théorème est disponible &lt;a class=&#34;link&#34; href=&#34;https://mariusgarenaux.github.io/post/documents/devs/perron_frobenius/dev_perron_frob.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;références-&#34;&gt;Références :&lt;/h3&gt;
-&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;La preuve du théorème est disponible &lt;a class=&#34;link&#34; href=&#34;https://demo.stack.jimmycai.com/post/documents/devs/perron_frobenius/dev_perron_frob.pdf&#34; &gt;ici&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;références-&#34;&gt;Références :
+&lt;/h3&gt;&lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;Serge Francinou, Hervé Gianella et Serge Nicolas. Oraux X-ENS, Algèbre 2. Pages 83-85.&lt;/li&gt;
 &lt;li&gt;Denis Serre. Les Matrices, Théorie et pratique. 2001&lt;/li&gt;

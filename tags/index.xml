@@ -2,31 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on Marius Garénaux</title>
-        <link>https://mariusgarenaux.github.io/tags/</link>
+        <link>https://demo.stack.jimmycai.com/tags/</link>
         <description>Recent content in Tags on Marius Garénaux</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language><atom:link href="https://demo.stack.jimmycai.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Arbres Aléatoires</title>
-        <link>https://mariusgarenaux.github.io/tags/arbres-al%C3%A9atoires/</link>
+        <link>https://demo.stack.jimmycai.com/tags/arbres-al%C3%A9atoires/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/tags/arbres-al%C3%A9atoires/</guid>
+        <guid>https://demo.stack.jimmycai.com/tags/arbres-al%C3%A9atoires/</guid>
         <description></description>
         </item>
         <item>
         <title>Crump-Mode-Jaggers</title>
-        <link>https://mariusgarenaux.github.io/tags/crump-mode-jaggers/</link>
+        <link>https://demo.stack.jimmycai.com/tags/crump-mode-jaggers/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/tags/crump-mode-jaggers/</guid>
+        <guid>https://demo.stack.jimmycai.com/tags/crump-mode-jaggers/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Développement</title>
+        <link>https://demo.stack.jimmycai.com/tags/d%C3%A9veloppement/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/d%C3%A9veloppement/</guid>
         <description></description>
         </item>
         <item>
         <title>Galton-Watson</title>
-        <link>https://mariusgarenaux.github.io/tags/galton-watson/</link>
+        <link>https://demo.stack.jimmycai.com/tags/galton-watson/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/tags/galton-watson/</guid>
+        <guid>https://demo.stack.jimmycai.com/tags/galton-watson/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Graphe</title>
+        <link>https://demo.stack.jimmycai.com/tags/graphe/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/graphe/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>IA</title>
+        <link>https://demo.stack.jimmycai.com/tags/ia/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/ia/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Jeu</title>
+        <link>https://demo.stack.jimmycai.com/tags/jeu/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/jeu/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Open Data</title>
+        <link>https://demo.stack.jimmycai.com/tags/open-data/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/open-data/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Perron-Frobenius</title>
+        <link>https://demo.stack.jimmycai.com/tags/perron-frobenius/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/perron-frobenius/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Probabilité</title>
+        <link>https://demo.stack.jimmycai.com/tags/probabilit%C3%A9/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/tags/probabilit%C3%A9/</guid>
         <description></description>
         </item>
         

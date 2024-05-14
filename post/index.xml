@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Marius Garénaux</title>
-        <link>https://mariusgarenaux.github.io/post/</link>
+        <link>https://demo.stack.jimmycai.com/post/</link>
         <description>Recent content in Posts on Marius Garénaux</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Cops and Robber - Le jeu Python</title>
-        <link>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</link>
+        <language>en-us</language><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Activité d&#39;IA, prédiction du trafic de Rennes</title>
+        <link>https://demo.stack.jimmycai.com/p/activit%C3%A9-dia-pr%C3%A9diction-du-trafic-de-rennes/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/post/cops_robber/cops_robber/</guid>
-        <description>&lt;img src="https://mariusgarenaux.github.io/post/cops_robber/cops_robber_img.png" alt="Featured image of post Cops and Robber - Le jeu Python" /&gt;&lt;p&gt;Le jeu &lt;em&gt;&lt;strong&gt;Cops and Robber&lt;/strong&gt;&lt;/em&gt; est un jeu de poursuite sur un graphe. On choisit un ensemble de sommets, certains reliés entre eux par des arêtes (c&amp;rsquo;est-à-dire un &lt;strong&gt;graphe&lt;/strong&gt;). Le premier joueur (le policier) choisit alors un sommet de départ, puis le second joueur (le voleur) fait de même. Chacun leur tour, ils se déplacent sur un sommet voisin, jusqu&amp;rsquo;à ce qu&amp;rsquo;éventuellement le policier arrive sur la même case que le voleur. On dit alors que le policier a gagné.&lt;/p&gt;
-&lt;p&gt;Le (très chouette) livre &lt;strong&gt;&amp;lsquo;The Game of Cops and Robber on Graphs&amp;rsquo;&lt;/strong&gt;, d&amp;rsquo;&lt;strong&gt;Anthony Bonato&lt;/strong&gt; et &lt;strong&gt;Richard J. Nowakowski&lt;/strong&gt;  présente toute une théorie autour de ce jeu. On peut par exemple se demander si, pour un certain graphe fixé, le policier peut toujours gagner. Si non, on peut alors se demander combien de policiers il faudrait pour attraper le voleur à coup sûr.&lt;/p&gt;
-&lt;p&gt;Pour essayer ce jeu sur vous graphes favoris, une &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/cops_robber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://demo.stack.jimmycai.com/p/activit%C3%A9-dia-pr%C3%A9diction-du-trafic-de-rennes/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/prediction_trafic/map.jpg" alt="Featured image of post Activité d&#39;IA, prédiction du trafic de Rennes" /&gt;&lt;p&gt;Ce TP est une introduction à l&amp;rsquo;IA à destination de lycéens ayant des bases en Python. Il consiste à entraîner sur différents jeux de données un modèle d&amp;rsquo;IA qui prédit le trafic sur la ville de Rennes. Les jeux de données sont stockés sur un noeud &lt;a class=&#34;link&#34; href=&#34;https://blog.rudi.bzh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;RUDI&lt;/strong&gt;&lt;/a&gt;, et issus du portail open data de la ville de Rennes. Le TP permet d&amp;rsquo;appréhender le mécanisme général d&amp;rsquo;entraînement d&amp;rsquo;un IA ainsi que la visualisation de données (géographiques).
+Le TP est disponible sur GitHub, &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/tp_prediction_trafic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;ici&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Cops and Robber - Le jeu Python</title>
+        <link>https://demo.stack.jimmycai.com/p/cops-and-robber-le-jeu-python/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/p/cops-and-robber-le-jeu-python/</guid>
+        <description>&lt;img src="https://demo.stack.jimmycai.com/post/cops_robber/cops_robber_img.png" alt="Featured image of post Cops and Robber - Le jeu Python" /&gt;&lt;p&gt;Le jeu &lt;em&gt;&lt;strong&gt;Cops and Robber&lt;/strong&gt;&lt;/em&gt; est un jeu de poursuite sur un graphe. On choisit un ensemble de sommets, certains reliés entre eux par des arêtes (c&amp;rsquo;est-à-dire un &lt;strong&gt;graphe&lt;/strong&gt;). Le premier joueur (le policier) choisit alors un sommet de départ, puis le second joueur (le voleur) fait de même. Chacun leur tour, ils se déplacent sur un sommet voisin, jusqu&amp;rsquo;à ce qu&amp;rsquo;éventuellement le policier arrive sur la même case que le voleur. On dit alors que le policier a gagné.&lt;/p&gt;
+&lt;p&gt;Le (très chouette) livre &lt;a class=&#34;link&#34; href=&#34;https://www.ams.org/books/stml/061/stml061-endmatter.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;&amp;lsquo;The Game of Cops and Robber on Graphs&amp;rsquo;&lt;/strong&gt;&lt;/a&gt;, d&amp;rsquo;&lt;strong&gt;Anthony Bonato&lt;/strong&gt; et &lt;strong&gt;Richard J. Nowakowski&lt;/strong&gt;  présente toute une théorie autour de ce jeu. On peut par exemple se demander si, pour un certain graphe fixé, le policier peut toujours gagner. Si non, on peut alors se demander combien de policiers il faudrait pour attraper le voleur à coup sûr.&lt;/p&gt;
+&lt;p&gt;Pour essayer ce jeu sur vos graphes favoris, une &lt;a class=&#34;link&#34; href=&#34;https://github.com/mariusgarenaux/cops_robber&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;version Python du jeu est disponible ici&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/game_exemple.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/cops_robber/game_exemple.png&#34;
 	
 	
 	
@@ -27,7 +40,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt;Il dispose d&amp;rsquo;un éditeur de graphes, pour créer et modifier vos terrains de jeu.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://mariusgarenaux.github.io/post/cops_robber/graph_editor_exemple.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://demo.stack.jimmycai.com/post/cops_robber/graph_editor_exemple.png&#34;
 	
 	
 	

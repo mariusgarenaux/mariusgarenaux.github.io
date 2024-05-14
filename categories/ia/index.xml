@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>IA on Marius Garénaux</title>
+        <link>http://localhost:42807/categories/ia/</link>
+        <description>Recent content in IA on Marius Garénaux</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language><atom:link href="http://localhost:42807/categories/ia/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Explication du modèle Naïve Bayes</title>
+        <link>http://localhost:42807/p/explication-du-mod%C3%A8le-na%C3%AFve-bayes/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:42807/p/explication-du-mod%C3%A8le-na%C3%AFve-bayes/</guid>
+        <description>&lt;img src="http://localhost:42807/post/documents/naive_bayes/image.png" alt="Featured image of post Explication du modèle Naïve Bayes" /&gt;&lt;p&gt;Dans le cadre du &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/activit%C3%A9-pr%C3%A9diction-du-trafic/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;TP autour de la prédiction du trafic de la ville de Rennes&lt;/a&gt;, le modèle &amp;lsquo;Naive Bayes&amp;rsquo; est utilisé. On détail ici un peu plus la théorie derrière la pratique.&lt;/p&gt;
+&lt;p&gt;Reprenons l&amp;rsquo;exemple de l&amp;rsquo;état du trafic. Pour simplifier, on suppose qu&amp;rsquo;on a  2 entrées : &lt;code&gt;nom_de_la_route&lt;/code&gt; et &lt;code&gt;heure&lt;/code&gt;; et une sortie : &lt;code&gt;etat_trafic&lt;/code&gt;. Les différentes valeurs possibles pour &lt;code&gt;etat_trafic&lt;/code&gt; sont :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;circulation_impossible&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tres_ralenti&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ralenti&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;fluide&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Pour résumer, le modèle Naïve Bayes essaye d&amp;rsquo;estimer, pour une entrée &lt;strong&gt;$x = $(nom_de_la_route, heure)&lt;/strong&gt; la probabilité que la sortie soit chacune des &lt;strong&gt;4&lt;/strong&gt; possibilités. Il retourne ensuite la valeur pour laquelle il a estimé la plus grande probabilité.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;De manière plus précise, on modélise notre problème par un couple &lt;strong&gt;$(X, Y)$&lt;/strong&gt; de variables aléatoires vérifiant :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$X$&lt;/strong&gt; est à valeur dans &lt;strong&gt;$\mathcal X = \mathcal D\times \mathcal H$&lt;/strong&gt;, où $\mathcal D$ est l&amp;rsquo;ensemble des noms de route possibles et $\mathcal H$ l&amp;rsquo;ensemble des heures ({0, 1, &amp;hellip;, 23}),&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$Y$&lt;/strong&gt; est à valeur dans &lt;strong&gt;$\mathcal Y$&lt;/strong&gt;, l&amp;rsquo;ensemble des valeurs possibles du trafic. On encode pour la suite ces valeurs en $1, 2, 3$ et $4$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le modèle fonctionne de la manière suivante. Pour &lt;strong&gt;$x \in \mathcal X$&lt;/strong&gt;, le modèle estime (à un facteur près) :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;$p_1$&lt;/strong&gt;$ = \mathbb{P} (Y = 1 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_2$&lt;/strong&gt;$ = \mathbb{P} (Y = 2 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_3$&lt;/strong&gt;$ = \mathbb{P} (Y = 3 | X = x)$,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$p_4$&lt;/strong&gt;$ = \mathbb{P} (Y = 4 | X = x)$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Puis il regarde laquelle de ces $4$ estimations est la plus grande, et retourne le choix corespondant.&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est la manière dont le modèle estime les paramètres qui lui donne son nom (&lt;strong&gt;Naïve Bayes&lt;/strong&gt;). Elle est basée sur le &lt;strong&gt;théorème de Bayes&lt;/strong&gt;, et est dite &lt;strong&gt;&amp;lsquo;Naïve&amp;rsquo;&lt;/strong&gt; car elle fait une hypothèse &lt;em&gt;assez forte&lt;/em&gt; sur &lt;strong&gt;$X$&lt;/strong&gt; (on explique &lt;em&gt;pourquoi&lt;/em&gt; on fait cette hypothèse à la fin).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;naïve-&#34;&gt;&amp;lsquo;Naïve&amp;rsquo; ?
+&lt;/h3&gt;&lt;p&gt;Pour estimer les probabilités ci-dessus, le modèle fait l&amp;rsquo;hypothèse que &lt;strong&gt;les marginales de $X$ sont indépendantes conditionnellement à $Y$&lt;/strong&gt;.
+C&amp;rsquo;est-à-dire, (si on note &lt;strong&gt;$X^{(1)}$&lt;/strong&gt; le nom de la route et &lt;strong&gt;$X^{(2)}$&lt;/strong&gt; l&amp;rsquo;heure) que pour tout nom de route &lt;strong&gt;$x^{(1)} \in \mathcal D$&lt;/strong&gt; , toute heure &lt;strong&gt;$x^{(2)} \in \mathcal H$&lt;/strong&gt; et toute valeur &lt;strong&gt;$y \in \mathcal Y$&lt;/strong&gt; de l&amp;rsquo;état du trafic, on a :
+$$
+\mathbb P(X^{(1)} = x^{(1)}, X^{(2)} = x^{(2)} | Y = y) = \mathbb P(X^{(1)} = x^{(1)}| Y = y)\times \mathbb P( X^{(2)} = x^{(2)} | Y = y).
+$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On rappelle que par définition, la probabilité que $X^{(1)} = x^{(1)}$ sachant que $Y=y$ est :
+$$ \mathbb P(X^{(1)} = x^{(1)}| Y = y) = \frac{\mathbb P(X^{(1)} = x^{(1)}, Y = y)}{\mathbb P(Y = y)} $$&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Intuitivement, dire que $X^{(1)}$ et $X^{(2)}$ sont indépendantes conditionnellement à $Y$ peut être expliqué de la manière suivante. Imaginons que vous jouez avec une amie. Elle observe l&amp;rsquo;état du trafic sur une route, à une heure précise. Elle vous dit quel est l&amp;rsquo;état de la circulation, mais pas le nom de la route, ni l&amp;rsquo;heure. Vous devez alors deviner (au hasard) ces deux informations. Alors dans cette configuration, dire que $X^{(1)}$ et $X^{(2)}$ sont indépendantes conditionnellement à $Y$ c&amp;rsquo;est dire que le fait de connaître (en plus de l&amp;rsquo;état du trafic) le nom de la route n&amp;rsquo;influence pas votre supposition sur l&amp;rsquo;heure (ou de manière équivalente que connaître l&amp;rsquo;heure n&amp;rsquo;influence pas votre supposition sur le nom de la route).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cette hypothèse est souvent &lt;em&gt;très forte&lt;/em&gt; (d&amp;rsquo;où la dénomination &amp;rsquo;naïve&amp;rsquo;), même si elle ne semble pas l&amp;rsquo;être dans cet exemple précis.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;bayes-&#34;&gt;&amp;lsquo;Bayes&amp;rsquo; ?
+&lt;/h3&gt;&lt;p&gt;Le théorème de &lt;strong&gt;Bayes&lt;/strong&gt; fait le lien entre $\mathbb P (Y = y | X = x)$ et $\mathbb P (X = x | Y = y)$. Voici ce théorème :
+$$
+\mathbb P (Y = y | X = x) = \frac{\mathbb P (X = x | Y = y)\times \mathbb P(Y = y)}{\mathbb P(X = x)}
+$$
+Il permet ici, si on fait l&amp;rsquo;hypothèse d&amp;rsquo;indépendance des marginales conditionnellement à $Y$, d&amp;rsquo;estimer les probabilités $p_1, p_2, p_3, p_4$.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;estimer-les-probabilités-&#34;&gt;Estimer les probabilités ?
+&lt;/h3&gt;&lt;p&gt;Pour estimer les &lt;strong&gt;4&lt;/strong&gt; probabilités $p_1, p_2, p_3, p_4$, une première approche peut être la suivante. Par définition de la probabilité conditionnelle :
+$$
+\mathbb p_1 = \mathbb P(Y = 1 | X = x) = \frac{\mathbb P(Y = 1, X = x)}{\mathbb P(X = x)}.
+$$
+Si on dispose de $n$ données d&amp;rsquo;entraînement $(x_1, y_1), &amp;hellip;, (x_n, y_n)$ (c&amp;rsquo;est-à-dire un tableau de données comme dans l&amp;rsquo;exercice !). On note $N_1(n)$ le nombre de fois où on observe $(x, 1)$ dans ces données, on peut alors approcher $\mathbb P(Y = 1, X = x)$ (grâce à la loi des grands nombres) par $\frac{N_1(n)}{n}$. Il est inutile d&amp;rsquo;avoir une approximation du dénominateur, $\mathbb P(X = x)$, car il va apparaître dans chacune des $4$ probabilités $p_1, p_2, p_3, p_4$ : on peut se contenter de choisir l&amp;rsquo;état $i$ du trafic pour lequel la probabilité $\mathbb P(Y = i, X = x)$ est la plus grande (ça sera la même que celle pour laquelle $p_i$ est la plus grande).
+Le potentiel problème de cette première approche est le suivant: si on a beaucoup de paramètres en entrées (c&amp;rsquo;est-à-dire si $X$ est à valeur dans un espace avec un grand nombre de dimensions), le nombre $N_1(n)$ de fois où on a observé l&amp;rsquo;entrée $x$ et la sortie $1$ risque d&amp;rsquo;être trop petit pour fournir une bonne approximation de $\mathbb P(Y = 1, X = x)$ (ou alors il faudrait un nombre $n$ de données d&amp;rsquo;entraînement beaucoup trop grand).&lt;/p&gt;
+&lt;p&gt;C&amp;rsquo;est pour palier à ce problème qu&amp;rsquo;on fait l&amp;rsquo;hypothèse &amp;rsquo;naïve&amp;rsquo; d&amp;rsquo;indépendance conditionnelle. Dans ce cas, l&amp;rsquo;approximation de $p_1$ se simplifie. Par le théorème de Bayes :
+$$
+p_1 = \mathbb P(X = x| Y = 1) \times \frac{\mathbb P(Y = 1)}{\mathbb P(X = x)}.
+$$
+Par l&amp;rsquo;hypothèse d&amp;rsquo;indépendance conditionnelle :
+$$
+\mathbb P(X = x | Y = 1) = \mathbb P(X^{(1)} = x^{(1)}| Y = 1)\times \mathbb P( X^{(2)} = x^{(2)} | Y = 1).
+$$
+Pour estimer chacun des deux termes du produit, on peut utiliser la loi des grands nombres comme précedemment. Par exemple, $\mathbb P(X^{(1)} = x^{(1)}| Y = 1)$ peut être approché par $\frac{N^{(1)}_1(n)}{M_1(n)}$, où $N^{(1)}_1(n)$ est le nombre de fois où on a observé la caractéristique $x^{(1)}$ et l&amp;rsquo;état du trafic $1$ parmi les données d&amp;rsquo;entraînement (par exemple le nombre de fois où la circulation était impossible sur le Mail François Mitterand), et $M_1(n)$ est le nombre de fois où on a observé l&amp;rsquo;état du trafic $1$ parmi les données d&amp;rsquo;entraînement (c&amp;rsquo;est-à-dire le nombre de fois où on a observé que la circulation était impossible). Cela permet de séparer les caractéristiques en entrée, au prix d&amp;rsquo;une hypothèse forte d&amp;rsquo;indépendance.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Quelques références&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://fr.wikipedia.org/wiki/Classification_na%C3%AFve_bay%C3%A9sienne&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://scikit-learn.org/stable/modules/naive_bayes.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://scikit-learn.org/stable/modules/naive_bayes.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/HlsrPlGmW00?si=0F5RHxFFfxo-G0Pw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://youtu.be/HlsrPlGmW00?si=0F5RHxFFfxo-G0Pw&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

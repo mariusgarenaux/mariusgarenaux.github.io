@@ -2,23 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Marius Garénaux</title>
-        <link>https://mariusgarenaux.github.io/categories/</link>
+        <link>https://demo.stack.jimmycai.com/categories/</link>
         <description>Recent content on Marius Garénaux</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>fr</language><atom:link href="https://mariusgarenaux.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en-us</language><atom:link href="https://demo.stack.jimmycai.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Développements</title>
-        <link>https://mariusgarenaux.github.io/categories/d%C3%A9veloppements/</link>
+        <link>https://demo.stack.jimmycai.com/categories/d%C3%A9veloppements/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/categories/d%C3%A9veloppements/</guid>
+        <guid>https://demo.stack.jimmycai.com/categories/d%C3%A9veloppements/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Maths</title>
+        <link>https://demo.stack.jimmycai.com/categories/maths/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://demo.stack.jimmycai.com/categories/maths/</guid>
         <description></description>
         </item>
         <item>
         <title>Programmation</title>
-        <link>https://mariusgarenaux.github.io/categories/programmation/</link>
+        <link>https://demo.stack.jimmycai.com/categories/programmation/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://mariusgarenaux.github.io/categories/programmation/</guid>
+        <guid>https://demo.stack.jimmycai.com/categories/programmation/</guid>
         <description></description>
         </item>
         
